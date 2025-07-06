@@ -1,0 +1,57 @@
+-- Remove existing records
+DELETE FROM country;
+
+-- Insert countries
+INSERT INTO country (co_code, co_name) VALUES ("AF", "Afghanistan");
+INSERT INTO country (co_code, co_name) VALUES ("AL", "Albania");
+INSERT INTO country (co_code, co_name) VALUES ("DZ", "Algeria");
+INSERT INTO country (co_code, co_name) VALUES ("AS", "American Samoa");
+INSERT INTO country (co_code, co_name) VALUES ("AD", "Andorra");
+INSERT INTO country (co_code, co_name) VALUES ("AO", "Angola");
+INSERT INTO country (co_code, co_name) VALUES ("AI", "Anguilla");
+INSERT INTO country (co_code, co_name) VALUES ("AQ", "Antarctica");
+INSERT INTO country (co_code, co_name) VALUES ("AG", "Antigua and Barbuda");
+INSERT INTO country (co_code, co_name) VALUES ("AR", "Argentina");
+INSERT INTO country (co_code, co_name) VALUES ("AM", "Armenia");
+INSERT INTO country (co_code, co_name) VALUES ("AW", "Aruba");
+INSERT INTO country (co_code, co_name) VALUES ("AU", "Australia");
+INSERT INTO country (co_code, co_name) VALUES ("AT", "Austria");
+INSERT INTO country (co_code, co_name) VALUES ("AZ", "Azerbaijan");
+INSERT INTO country (co_code, co_name) VALUES ("BS", "Bahamas");
+INSERT INTO country (co_code, co_name) VALUES ("BH", "Bahrain");
+INSERT INTO country (co_code, co_name) VALUES ("BD", "Bangladesh");
+INSERT INTO country (co_code, co_name) VALUES ("BB", "Barbados");
+INSERT INTO country (co_code, co_name) VALUES ("BY", "Belarus");
+INSERT INTO country (co_code, co_name) VALUES ("BE", "Belgium");
+INSERT INTO country (co_code, co_name) VALUES ("BZ", "Belize");
+INSERT INTO country (co_code, co_name) VALUES ("BJ", "Benin");
+INSERT INTO country (co_code, co_name) VALUES ("BM", "Bermuda");
+INSERT INTO country (co_code, co_name) VALUES ("BT", "Bhutan");
+INSERT INTO country (co_code, co_name) VALUES ("BR", "Brazil");
+INSERT INTO country (co_code, co_name) VALUES ("BN", "Brunei");
+INSERT INTO country (co_code, co_name) VALUES ("BG", "Bulgaria");
+INSERT INTO country (co_code, co_name) VALUES ("BF", "Burkina Faso");
+INSERT INTO country (co_code, co_name) VALUES ("BI", "Burundi");
+INSERT INTO country (co_code, co_name) VALUES ("KH", "Cambodia");
+INSERT INTO country (co_code, co_name) VALUES ("CM", "Cameroon");
+INSERT INTO country (co_code, co_name) VALUES ("CA", "Canada");
+INSERT INTO country (co_code, co_name) VALUES ("CF", "Central African Republic");
+INSERT INTO country (co_code, co_name) VALUES ("TD", "Chad");
+INSERT INTO country (co_code, co_name) VALUES ("CL", "Chile");
+INSERT INTO country (co_code, co_name) VALUES ("CN", "China");
+INSERT INTO country (co_code, co_name) VALUES ("CO", "Colombia");
+INSERT INTO country (co_code, co_name) VALUES ("KM", "Comoros");
+INSERT INTO country (co_code, co_name) VALUES ("CG", "Congo");
+INSERT INTO country (co_code, co_name) VALUES ("CD", "Congo, Democratic Republic of the");
+INSERT INTO country (co_code, co_name) VALUES ("CR", "Costa Rica");
+INSERT INTO country (co_code, co_name) VALUES ("HR", "Croatia");
+INSERT INTO country (co_code, co_name) VALUES ("CU", "Cuba");
+INSERT INTO country (co_code, co_name) VALUES ("CY", "Cyprus");
+INSERT INTO country (co_code, co_name) VALUES ("CZ", "Czech Republic");
+INSERT INTO country (co_code, co_name) VALUES ("DK", "Denmark");
+INSERT INTO country (co_code, co_name) VALUES ("DJ", "Djibouti");
+INSERT INTO country (co_code, co_name) VALUES ("DO", "Dominican Republic");
+INSERT INTO country (co_code, co_name) VALUES ("EC", "Ecuador");
+INSERT INTO country (co_code, co_name) VALUES ("EG", "Egypt");
+INSERT INTO country (co_code, co_name) VALUES ("SV", "El Salvador");
+-- Add more countries if needed...
